@@ -16,8 +16,7 @@ set(INCLUDE_DIRS ${catkin_INCLUDE_DIRS}
 find_package (Boost COMPONENTS filesystem python REQUIRED)
 set(LIBRARIES ${catkin_LIBRARIES}
               ${OpenCV_LIBRARIES}
-	      ${Boost_LIBRARIES}
-	      
+              ${Boost_LIBRARIES}
 )
 
 if(LINEMOD_VIZ_PCD)
